@@ -1,9 +1,16 @@
 body {
     width: 100%;
 }
+header {
+
+}
 .navbar{
  background: transparent;
  z-index: 1;
  position: fixed;
  width: 100%;
+}
+i{
+    color:white;
+    font-size:xx-large;
 }
