@@ -1,6 +1,7 @@
+
 body {
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    width: 100%; /* Quita espacio en blanco*/
+    font-family: 'Open Sans', sans-serif; /* Asigna tipografía para todo el html*/
 }
 header {
     font-size: medium;
@@ -11,22 +12,22 @@ h1{
 h2{
     font-size: 1.2rem;
 }
-P{
-    font-size:medium;
+p{
+    font-size:medium; /* cambios de tamaño para parrafo*/
 }
 main {
-    background:black;
+    background:black; /* Color de fondo negro para sección principal*/
 }
+/*  */
 .navbar{
- background: transparent;
- z-index: 1;
- /* position: fixed; */
+ background: transparent; /* Fondo transparente*/
+ z-index: 1; /* Permite dejar navbar sobre carrusel*/
+ position: fixed;
  width: 100%;
 }
-.carousel{
-    z-index: -1;
-}
-i{
-    color:white;
+
+footer a{
+    color:white; /* color blanco para fontawsome*/
     font-size:xx-large;
+    text-decoration: none;
 }
