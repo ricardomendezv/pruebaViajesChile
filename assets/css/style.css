@@ -1,8 +1,21 @@
 body {
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 header {
-
+    font-size: medium;
+}
+h1{
+    font-size: x-large;
+}
+h2{
+    font-size: 1.2rem;
+}
+P{
+    font-size:medium;
+}
+main {
+    background:black;
 }
 .navbar{
  background: transparent;

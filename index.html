@@ -15,8 +15,7 @@
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Viajes Chile</title>
 </head>
 
@@ -24,42 +23,36 @@
 
     <header class="container-fluid m-0 p-0">
         <!-- Navbar-->
-
-        <nav class="navbar navbar-expand-lg navbar-dark">
-
-            <div class=" row container-fluid">
-                <div class="col-2 ms-5 ps-5">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/img/viajes.svg" alt="" width="30" height="24"
-                            class="d-inline-block align-text-top">
-                        Viajes Chile
-                    </a>
-                </div>
-                <div class="col-4">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Quienes Somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Destacados</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/viajes.svg" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    Viajes Chile
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+              </div>
+            </div>
+          </nav>
         <!-- Carrusel-->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
@@ -86,11 +79,11 @@
             </button>
         </div>
     </header>
-    <main class="bg-dark text-white">
-        <section class="container">
+    <main class="text-white">
+        <section class="container py-5 d-none d-md-block">
             <!-- Quienes Somos-->
             <div class="row text-center pt-4 pb-5">
-                <h1>¿QUIENES SOMOS?</h1>
+                <h1>¿QUIÉNES SOMOS?</h1>
             </div>
             <div class="row">
                 <!--Avión-->
@@ -151,14 +144,13 @@
                 </article>
             </div>
         </section>
-        <section class="container">
-            <!-- Destacados-->
+        <section class="container pb-5">
             <div class="row text-center pt-4 pb-5">
                 <h1>DESTACADOS</h1>
             </div>
             <div class="row">
                 <div class="col-3">
-                    <div class="card mx-auto" style="width: 18rem;">
+                    <div class="card mx-auto h-100" style="width: 18rem;">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info text-white">
                             <h2>Lorem ipsum dolor sit amet</h2>
@@ -170,9 +162,9 @@
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card mx-auto" style="width: 18rem;">
+                    <div class="card mx-auto h-100" style="width: 18rem;">
                         <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-info text-white">
+                        <div class="card-body bg-info text-white ">
                             <h2>consectetur adipisci elit</h2>
                             <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
                                 tempor
@@ -182,9 +174,9 @@
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card mx-auto" style="width: 18rem;">
+                    <div class="card mx-auto h-100" style="width: 18rem;">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-info text-white">
+                        <div class="card-body bg-info text-white ">
                             <h2>sed eiusmod tempor incidunt ut labore</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
                                 tempor
@@ -194,7 +186,7 @@
                     </div>
                 </div>
                 <div class="col-3 ">
-                    <div class="card mx-auto" style="width: 18rem;">
+                    <div class="card mx-auto h-100" style="width: 18rem;">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info text-white">
                             <h2>Ut enim ad minim veniam</h2>
@@ -209,42 +201,44 @@
             </div>
 
         </section>
-        <section class="container">
-            <!-- Contacto-->
-            <div class="row">
+        <section class="container pb-5">
+            <div class="row text-center pt-4 pb-5">
+                <h1>CONTACTO</h1>
+            </div>
+            <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Indica el Asunto">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
             </div>
             <div class="col-auto">
                 <button type="submit" class="btn btn-info mb-3 text-white">Enviar</button>
             </div>
         </section>
     </main>
-    <footer class="row bg-info p-3 text-white">
-        <div class="col-4 text-center ">
-        <h1>VIAJES CHILE</h1>            
+    <footer class="row bg-info p-3 text-white m-0">
+        <div class="col-4 text-end ps-5">
+            <h1>VIAJES CHILE</h1>
         </div>
-        <div class="col-6 text-end">
-            <div class="col-4">
-                <i class="fa-brands fa-github-square"></i>
-                <i class="fa-brands fa-linkedin"></i>.
-                <i class="fa-brands fa-twitter-square"></i>
-                <i class="fa-brands fa-facebook-square"></i>
-            </div>
+        <div class="col-4"></div>
+        <div class="col-4 text-start pe-5 pt-2">
+
+            <i class="fa-brands fa-github-square px-2"></i>
+            <i class="fa-brands fa-linkedin px-2"></i>
+            <i class="fa-brands fa-twitter-square px-2"></i>
+            <i class="fa-brands fa-facebook-square px-2"></i>
 
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
