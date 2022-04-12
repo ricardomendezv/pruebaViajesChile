@@ -20,8 +20,11 @@ main {
 .navbar{
  background: transparent;
  z-index: 1;
- position: fixed;
+ /* position: fixed; */
  width: 100%;
+}
+.carousel{
+    z-index: -1;
 }
 i{
     color:white;
